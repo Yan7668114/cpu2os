@@ -15,4 +15,3 @@ double square(double x) {
 int main() {
     printf("integrate(square, 0.0, 2.0)=%f\n", integrate(square, 0.0, 2.0));
 }
-//感謝老師的不吝指教

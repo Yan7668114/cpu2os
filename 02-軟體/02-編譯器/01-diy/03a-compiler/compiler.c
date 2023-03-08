@@ -101,7 +101,7 @@ void DO_WHILE() {
   int e = E();
   emit("if T%d goto L%d\n", e ,doBegin);
   skip(")");
-  skip(";");
+  skip(";"); 
   emit("(L%d)\n", doEnd);   
 }
 

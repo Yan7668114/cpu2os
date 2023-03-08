@@ -99,9 +99,9 @@ void DO_WHILE() {
   skip("while");
   skip("(");
   int e = E();
-  emit("if T%d goto L%d\n", e ,doBegin);
   skip(")");
-  skip(";"); 
+  skip(";");
+  emit("if T%d goto L%d\n", e, doBegin);
   emit("(L%d)\n", doEnd);   
 }
 

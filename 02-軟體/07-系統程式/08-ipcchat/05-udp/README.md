@@ -12,7 +12,6 @@ $ gcc chat.c -o chat
 必須開兩個視窗，其中一個執行 chat 0, 另一個執行 chat 1
 
 User 0: server
-
 ```
 mac020:05-udp mac020$ ./chat
 I am server...

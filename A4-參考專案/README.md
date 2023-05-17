@@ -11,10 +11,13 @@
     * [ccc 加註解後的原始碼版本](https://github.com/riscv2os/riscv2os/tree/master/xv6)
 * [semu](riscv/semu) -- 虛擬機，可執行 xv6
     * [ccc 加註解後的原始碼版本](https://github.com/riscv2os/semu/blob/master/ccc/semu.c)
+* [TinyEMU](https://bellard.org/tinyemu/) -- 虛擬機 (Fabrice Bellard)
+    * https://github.com/fernandotcl/TinyEMU
 * [minilisp](https://github.com/rui314/minilisp) -- 解譯器
     * [ccc 加註解後的原始碼版本](https://github.com/ccc-c/minilisp/blob/master/ccc/minilisp.c)
 * [script1](https://github.com/script-one/script1) -- 類似編譯器
     * 但功能是將 script1 語言轉換成 js/python/dart，而非轉換成機器碼或組合語言
     * 說明文件 -- https://github.com/script-one/script1/wiki
+* 其他推薦： docker, k8s, llvm, gcc, linux, android, iOS, windows, qemu
 
 
